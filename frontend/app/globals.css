@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-base-950: #05080e;
+  --color-base-900: #080c14;
+  --color-base-850: #0b111c;
+  --color-base-800: #0f1622;
+  --color-base-750: #141c2a;
+  --color-base-700: #1a2434;
+
+  --color-accent-500: #22b8d6;
+  --color-accent-400: #38cbe6;
+
+  --color-crit-500: #e0483f;
+  --color-ok-500: #2fbf71;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-base-950);
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(34, 184, 214, 0.13), transparent 70%);
+  color: #e8edf5;
+  font-family: var(--font-sans);
+}
+
+.glass {
+  background: linear-gradient(160deg, rgba(20, 28, 42, 0.82) 0%, rgba(11, 17, 28, 0.88) 100%);
+  border: 1px solid rgba(51, 65, 90, 0.7);
+  backdrop-filter: blur(14px);
+}
+
+.label-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
