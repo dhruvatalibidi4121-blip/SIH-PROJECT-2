@@ -37,3 +37,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+.env.local
+.env
+node_modules/
+.next/
